@@ -9,9 +9,11 @@ export const Checkout = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout>
-          <h1>asd</h1>
-        </Layout>} />
+        <Route path="/" element={
+          <Layout>
+            <h1>asd</h1>
+          </Layout>
+        }/>
 
       </Routes>
     </BrowserRouter>
